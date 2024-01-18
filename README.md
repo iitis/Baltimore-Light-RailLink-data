@@ -2,7 +2,7 @@
 traffic data of Maryland Light Railways (MLR)
 
 
-##To read real time GFTS-RT data from SWIFTLY data use:
+## To read real time GFTS-RT data from SWIFTLY data use:
 
 ```
 swiftly.py --folder ...
@@ -10,7 +10,7 @@ swiftly.py --folder ...
 
 where argument is the folder in \outputs where data are saved .
 
-##To plot histogram of passing times between MR and CS stations use:
+## To plot histogram of passing times between MR and CS stations use:
 
 ```
 hist --datafolder  ...  --direction
