@@ -27,7 +27,8 @@ Example plotter:
 ```
 python3 hists.py --datafolder  "11012024_700/" "12012024_700/" "15012024_700/" "16012024_700/" "11012024_1500/" "12012024_1500/" "15012024_1500/" "16012024_1500/" --direction "n"
 ```
-
+### Bash scripts 
+run_in_loop_morning.sh and run_in_loop_afternoon.sh has to be run simultaniously at 7 a.m. Maryland time each day data has to be collected. The date therein has to be altered manualy. 
 
 ### In other_gfts general (static) GTFS data and station codes are present.
 
