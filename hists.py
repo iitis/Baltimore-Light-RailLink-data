@@ -65,10 +65,17 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('--datafolder', type=str, default=["files/"], nargs="*",
                             help='folders data are stored')
+    parser.add_argument('--direction', type=str, default="",
+                            help='direction of trains possible "s" - south, "n" -north or "" both' )
 
     args = parser.parse_args()
-
-    plot_histograms(args.datafolder, south = True, north = False)
+    assert args.direction in ["s", "n", ""]
+    if args.direction == "s":
+        plot_histograms(args.datafolder, south = True, north = False)
+    elif args.direction == "n":
+        plot_histograms(args.datafolder, south = False, north = True)
+    else:
+        plot_histograms(args.datafolder, south = True, north = True)
 
 
 
