@@ -1,0 +1,3 @@
+route_id,direction_id,direction
+11693,0,Northbound
+11693,1,Southbound
