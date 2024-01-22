@@ -8,7 +8,7 @@ plt.rc('text', usetex=True)
 plt.rc('font', family='serif')
 plt.rc('font', size=10)
 
-def plot_histograms(our_dirs, south = True, north = True):
+def plot_histograms(our_dirs, south = True, north = True, cutoff = 30):
 
     hn = []
     hs = []
@@ -24,6 +24,8 @@ def plot_histograms(our_dirs, south = True, north = True):
             print("len south", len(times_hist["S"]))
             hs += times_hist["S"]
     h = hn + hs
+    # for now cutting of to large artefacts
+    #h = list(filter(lambda x : x < cutoff, h))
 
     print("length all", len(h))
 
@@ -52,8 +54,9 @@ def plot_histograms(our_dirs, south = True, north = True):
     else:
         direction = "both_ways"
     plt.xlabel(f"measured passing time CS -- MR {direction}")
-    plt.gca().set_xlim(left=0)
-    plt.xticks(range(0, int(r1)+1, 2))
+    plt.gca().set_xlim(left=0, right = 30)
+    #plt.xticks(range(0, int(r1)+1, 2))
+    plt.xticks(range(0, 30, 2))
     plt.ylabel("counts")
     plt.savefig(f"pics/Realdata_{period}_{days}{month}{year}{direction}.pdf")
     plt.show()
