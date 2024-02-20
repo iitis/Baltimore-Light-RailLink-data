@@ -90,8 +90,6 @@ def plot_histograms(our_dirs, trains_direction):
     fig, ax = plt.subplots(figsize=(4, 3))
     fig.subplots_adjust(bottom=0.2, left = 0.15)
     plt.hist( h, bins = bins, color = "gray",  ec="darkblue")
-    l = len(our_dirs)-1
-
 
     plt.title(f"{period}  {days}  {month}  {year}")
     plt.xlabel(f"measured passing time CS -- MR {direction}")
