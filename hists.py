@@ -68,12 +68,17 @@ def make_histograms(our_dirs, trains_direction):
 def plot_histograms(our_dirs, trains_direction):
 
 
-    json_dir, pdf_dir, (days, month, year, period, direction) = make_files_names(our_dirs, trains_direction)
+    json_dir, pdf_dir, _ = make_files_names(our_dirs, trains_direction)
 
     with open(json_dir, 'rb') as fp:
         results = pickle.load(fp)
 
     h = results["hist"]
+    days = results["days"]
+    month = results["month"]
+    year = results["year"]
+    direction = results["direction"]
+    period = results["period"]
 
     print("length all", len(h))
 
