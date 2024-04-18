@@ -33,3 +33,8 @@ run_in_loop_morning.sh and run_in_loop_afternoon.sh has to be run simultaniously
 ### In other_gfts general (static) GTFS data and station codes are present.
 
 ### In analyzis_transportation there is the feedback of specialist in transportation on this data.
+
+
+## Founding
+
+The code was partially supported by Polish National Science Center under grant agreements number 2023/07/X/ST6/00396. 
