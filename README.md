@@ -6,7 +6,9 @@ Data supplied by the
 We acknowledge Swiftly’s GTFS-realtime API https://swiftly.zendesk.com/hc/en-us 
 (accessed 11-31 January 2024) for supplying these real-time traffic data.
 
-## To plot a histogram of passing times between MR and CS stations use:
+## To plot a histogram 
+
+of passing times between selected stations use
 
 ```
 hist --datafolder  ...  --direction
