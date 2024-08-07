@@ -13,7 +13,7 @@ hist --datafolder  ...  --direction
 ```
 
 where: --datafolder (multiple) arguments of files input \outputs
-       --direction  trains direction possibne "n" north, "s" south "" both.
+       --direction  trains direction possible "n" north, "s" south "" both.
 
 Plots are saved in ```\pics```.
 
@@ -23,6 +23,12 @@ Example plotter:
 ```
 python3 hists.py --datafolder  "11012024_700/" "12012024_700/" "15012024_700/" "16012024_700/" "11012024_1500/" "12012024_1500/" "15012024_1500/" "16012024_1500/" --direction "n"
 ```
+
+## Data quality check
+
+For data quality check, compare these with manually collected data in folder ``analyzis_transportation``
+
+
 
 ## Founding
 
