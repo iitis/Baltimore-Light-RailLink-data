@@ -30,7 +30,9 @@ python3 hists.py --datafolder  "11012024_700/" "12012024_700/" "15012024_700/" "
 
 For data quality check, compare these with manually collected data in folder ``analyzis_transportation``
 
+## PLese cite
 
+- K Domino, E Doucet, R Robertson, B Gardas, S Deffner, On the Baltimore Light RailLink into the quantum future, 2024, [arXiv:2406.11268](http://arxiv.org/abs/2406.11268)
 
 ## Founding
 
