@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/839311612.svg)](https://zenodo.org/doi/10.5281/zenodo.13254841)
+
+
 # Baltimore-Light-RailLink-data
 
 Histograms of traffic data of Baltimore Light RailLink
@@ -6,7 +9,9 @@ Data supplied by the
 We acknowledge Swiftly’s GTFS-realtime API https://swiftly.zendesk.com/hc/en-us 
 (accessed 11-31 January 2024) for supplying these real-time traffic data.
 
-## To plot a histogram of passing times between MR and CS stations use:
+## To plot a histogram 
+
+of passing times between selected stations use
 
 ```
 hist --datafolder  ...  --direction
@@ -30,7 +35,9 @@ For data quality check, compare with manually collected data in folder ``descrip
 
 For precise data/system description (in Polish) see folder ``description/expertises``
 
+## PLese cite
 
+- K Domino, E Doucet, R Robertson, B Gardas, S Deffner, On the Baltimore Light RailLink into the quantum future, 2024, [arXiv:2406.11268](http://arxiv.org/abs/2406.11268)
 
 ## Founding
 
