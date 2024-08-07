@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/839311612.svg)](https://zenodo.org/doi/10.5281/zenodo.13254841)
+
+
 # Baltimore-Light-RailLink-data
 
 Histograms of traffic data of Baltimore Light RailLink
