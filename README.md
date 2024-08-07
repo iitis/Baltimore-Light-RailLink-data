@@ -24,9 +24,11 @@ Example plotter:
 python3 hists.py --datafolder  "11012024_700/" "12012024_700/" "15012024_700/" "16012024_700/" "11012024_1500/" "12012024_1500/" "15012024_1500/" "16012024_1500/" --direction "n"
 ```
 
-## Data quality check
+## Data description quality check
 
-For data quality check, compare these with manually collected data in folder ``analyzis_transportation``
+For data quality check, compare with manually collected data in folder ``description/Dane KG.xls``
+
+For precise data/system description (in Polish) see folder ``description/expertises``
 
 
 
