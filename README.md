@@ -1,16 +1,12 @@
-# MLR_railway_data
-traffic data of Maryland Light Railways (MLR)
+# Baltimore-Light-RailLink-data
 
+Histograms of traffic data of Baltimore Light RailLink
+Data supplied by the 
 
-## To read real time GFTS-RT data from SWIFTLY data use:
+We acknowledge Swiftly’s GTFS-realtime API https://swiftly.zendesk.com/hc/en-us 
+(accessed 11-31 January 2024) for supplying these real-time traffic data.
 
-```
-swiftly.py --folder ...
-```
-
-where argument is the folder in \outputs where data are saved .
-
-## To plot histogram of passing times between MR and CS stations use:
+## To plot a histogram of passing times between MR and CS stations use:
 
 ```
 hist --datafolder  ...  --direction
@@ -27,14 +23,7 @@ Example plotter:
 ```
 python3 hists.py --datafolder  "11012024_700/" "12012024_700/" "15012024_700/" "16012024_700/" "11012024_1500/" "12012024_1500/" "15012024_1500/" "16012024_1500/" --direction "n"
 ```
-### Bash scripts 
-run_in_loop_morning.sh and run_in_loop_afternoon.sh has to be run simultaniously at 7 a.m. Maryland time each day data has to be collected. The date therein has to be altered manualy. 
-
-### In other_gfts general (static) GTFS data and station codes are present.
-
-### In analyzis_transportation there is the feedback of specialist in transportation on this data.
-
 
 ## Founding
 
-The code was partially supported by Polish National Science Center under grant agreements number 2023/07/X/ST6/00396. 
+The code was partially supported by Polish National Science Center under grant agreement number 2023/07/X/ST6/00396. 
