@@ -39,7 +39,7 @@ For precise data/system description (in Polish) see folder ``description/experti
 
 - M. Koniorczyk, K. Krawiec, L. Botelho, N. Bešinović, and K. Domino, "Solving rescheduling problems in heterogeneous urban railway networks using hybrid quantum-classical approach", Journal of Rail Transport Planning & Management, vol. 34, issue 100521, 05/2025, https://doi.org/10.1016/j.jrtpm.2025.100521
 
-- K. Domino, E. Doucet, R. Robertson, B. Gardas, and S. Deffner, "On the Baltimore Light RailLink into the quantum future", Scientific Reports, vol. 15, issue 29576, 08/2025, 10.1038/s41598-025-15545-0
+- K. Domino, E. Doucet, R. Robertson, B. Gardas, and S. Deffner, "On the Baltimore Light RailLink into the quantum future", Scientific Reports, vol. 15, issue 29576, 08/2025, [10.1038/s41598-025-15545-0](https://doi.org/10.1038/s41598-025-15545-0)
 
 ## Founding
 
